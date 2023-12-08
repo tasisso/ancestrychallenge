@@ -14,7 +14,7 @@ cost = function(y.true, y.hat){
 	
 #baseline
 base = matrix(1/3, nrow(y.train), ncol(y.train))
-cost(y.train, base)
+cost(y.train, base) 
 
 y.test = matrix(1/3, nrow(X.test), ncol(y.train))
 
